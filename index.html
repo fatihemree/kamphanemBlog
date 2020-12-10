@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamphanem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <style>
+        #banneLogo {
+            height: auto;
+            width: 45px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    
+
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark text-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="banneLogo" src="assets/logo/logo.png" alt="" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kamp Yerleri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Geziler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tavsiyeler</a>
+                        </li>
+    
+    
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-light" type="submit">Giriş Yap</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/video/bannerVideo.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <img id="banneLogo" src="assets/logo/logo.png">
+                    <h1 class="display-3">Kamphanem</h1>
+                    <p class="lead mb-0">kamp ve gezi sevenlerin hanesi, kamphanem</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+
+
+        <h1 class="text-center text-secondary mb-1">Kategoriler</h1>
+        <hr class="mb-5">
+
+        <div class="row categoryCard ">
+
+            <div class="col-lg-3 col-md-6 col-xs-1 rounded-3 mb-3">
+                <img class="" src="assets/category/gezi.png"></div>
+
+
+            <div class="col-lg-3 col-md-6 col-xs-1 rounded-3 mb-3">
+                <img class="" src="assets/category/malzeme.png">
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-xs-1 rounded-3 mb-3">
+                <img class="" src="assets/category/yemek.png">
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-xs-1 rounded-3 mb-3">
+                <img class="" src="assets/category/kamp.png">
+            </div>
+
+        </div>
+
+
+        <h1 class="text-center text-secondary mb-1">Kamp Yerleri</h1>
+        <hr class="mb-3">
+
+        <div class="row favoriYazilar">
+
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/camp/1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Salda Gölü</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/camp/2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Düldül dağı</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/camp/3.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Aslantaş Doğa Kampı</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <h1 class="text-center text-secondary my-1">Yemekler</h1>
+        <hr class="mb-3">
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-xs-1 my-3">
+                <div class="card mb-3">
+                    <img src="assets/yemek/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Makarna</h5>
+                        <p class="card-text">Yemek alışkanlıklarımızı bir kenara bırakırsak, pratik kamp yemekleri
+                            arasında bize yapması en kolay...</p>
+                        <p class="card-text"><small class="text-muted">Yaklaşık 3 ay önce</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-xs-1 my-3">
+                <div class="card mb-3">
+                    <img src="assets/yemek/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Et & Sucuk</h5>
+                        <p class="card-text">Yukarıda belirttiğim gibi, taze et, kamp ortamında saklanması zor bir
+                            gıdadır. O nedenle et ihtiyacınızı karşılamak için kurutulmuş etleri tercih etmenizi tavsiye
+                            ed...</p>
+                        <p class="card-text"><small class="text-muted">Yaklaşık 3 ay önce</small></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-xs-1 my-3">
+                <div class="card mb-3">
+                    <img src="assets/yemek/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Patates</h5>
+                        <p class="card-text">Herhalde içimizde patatesi sevmeyen yoktur. Hele ki kızartmasına bayılırız,
+                            dimi? Fak...</p>
+                        <p class="card-text"><small class="text-muted">Yaklaşık 3 ay önce</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h1 class="text-center text-secondary my-1">Geziler</h1>
+        <hr class="mb-3">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/gezi/eskisehir.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ESKİŞEHİR’DE NE YAPSAN?</h5>
+                        <p class="card-text">Cuma’dan Pazar’a uzun bir hafta sonu geçirmek üzere ziyaret ettiğimiz
+                            Eskişehir’e gitmeden önce alışıldığı üzere şehirle ilgili araştırmalar yapmak yerine bu kez
+                            kendimi “sosyal medya”nın</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Yaklaşık 3 yıl...</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/gezi/karadeniz.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RİZE’DEN ARTVİN’E DOĞU KARADENİZ GEZİ NOTLARI</h5>
+                        <p class="card-text">Karadeniz’in bu bölümüne ilk kez ayak basıyorum.. Heyecanlıyım..
+                            Beklentiliyim.. ama yola çıkarken bu seyahatin finalde bana “hayatımın en güzel
+                            seyahatlerinden biriydi” cümlesini kurduracağından bihaberim! Doğu Karadeniz denince akla
+                            gelecek standart rotalardan biri değil, daha az tercih edilen, çok bilinmeyen ama muhteşem
+                            bir rotamız var.. Bunu nasıl açıklasam bilemiyorum.. Yine ilk kez gitsem tamamen ...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Yaklaşık 3 yıl...</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/gezi/rusya.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">RUSYA’DA TURİST OLMA DERSLERİNE GİRİŞ: MOSKOVA & ST.PETERSBURG</h5>
+                        <p class="card-text">Yıllarca gitmeyi ertelediğim bir ülkenin iki şehrine birden bir haftadan
+                            uzun bir seyahat gerçekleştirince tüm bu seyahati tek bir yazıya sığdırmak haksızlık olurdu.
+                            Onun için ben de seyahati kafamda bölümlere ayırıp gitmek isteyenlere daha çok faydalı
+                            olabilecek notlar hazırlamak isted...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Yaklaşık 3 yıl...</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="assets/gezi/ukrayna.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">LVİV, KİEV, ODESSA: TUR İLE BAŞTAN BAŞA UKRAYNA SEYAHAT NOTLARI</h5>
+                        <p class="card-text">Mayıs ayında şahane bir Ukrayna seyahati yaptık. Üstelik normalde pek
+                            yapmadığımız şekilde, “tur ile” Ukrayna’yı baştan başa gezdik!. Normalde tur ile seyahat
+                            etmek ilk tercihim değil ama karşı da değilim.. Bazı rotalar var ki onları bireysel olarak
+                            planlamak yerine bir rehber eşliğinde...</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Yaklaşık 3 yıl...</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="text-center text-secondary mb-1">Kamp Malzemeleri ve Tavsiyeler</h1>
+        <hr class="mb-3">
+
+        <div class="row favoriYazilar">
+
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/malzeme/kamp-cadiri.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Salda Gölü</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/malzeme/kamp-ocagi.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Kamp Ocağı</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/malzeme/kamp-sandelyesi.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title ">Kamp Sandalyesi</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6  col-xs-1  my-3 ">
+                <div class="card  text-white overflow-hidden">
+                    <img src="assets/malzeme/tulum.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">Tulum</h3>
+
+                        <p class="card-text">3 ay önce...</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- /container content -->
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span class="footer-title">Anasayfa</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kamp Yerleri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Geziler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tavsiyeler</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span class="footer-title">Hakkımızda</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bize ulaşım</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Yazarlarımız</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-column">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <span class="footer-title">Contact & Support</span>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link"><i class="fas fa-phone"></i> +90 552 488 48 84</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-comments"></i>Live chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-star"></i>Give feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+
+            <div class="row text-center">
+                <div class="col-md-4 box">
+                    <span class="copyright quick-links">Copyright &copy; Kamphanem 2020
+                    </span>
+                </div>
+                <div class="col-md-4 box">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 box">
+                    <ul class="list-inline quick-links">
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
